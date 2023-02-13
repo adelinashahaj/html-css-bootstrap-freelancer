@@ -6,4 +6,11 @@ header{
     background-color: #2c503e;
     color: white;
 }
+.ms_debug-box{
+    height: 200px;
+    border: dashed 1px black;
+}
+.ms_bg-color{
+    background-color: rgb(67, 238, 164);
+}
 
