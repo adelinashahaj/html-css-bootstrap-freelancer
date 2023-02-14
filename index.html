@@ -7,46 +7,50 @@
     <title>Bootstrap Freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <!--inizio header-->
 
-    <header>
+    <header class="fixed-top">
             <!-- navbar -->
-          <nav class="navbar navbar-expand-sm navbar-light ">
+          <nav class="navbar navbar-expand-sm navbar-light h-100 ">
              <div class="container-sm flex-row-reverse  flex-sm-row">
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
-               <a class="navbar-brand" href="#">STARTBOOTSTRAP</a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon text-white"></span>
+                  </button>
+               <a class="navbar-brand text-white" href="#">STARTBOOTSTRAP</a>
                  <div class="justify-content-sm-end collapse navbar-collapse" id="navbarTogglerDemo01">
                      <ul class="d-flex navbar-nav  mb-2 mb-lg-0">
                          <li class="nav-item">
-                         <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                         <a class="nav-link active text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
                          </li>
                          <li class="nav-item">
-                         <a class="nav-link active" href="#about">ABOUT</a>
+                         <a class="nav-link active text-white" href="#about">ABOUT</a>
                          </li>
                          <li class="nav-item">
-                         <a class="nav-link active" href="#account" tabindex="-1" aria-disabled="true">ACCOUNT</a>
+                         <a class="nav-link active text-white" href="#account" tabindex="-1" aria-disabled="true">ACCOUNT</a>
                          </li>
                      </ul>
                  </div>
              </div>
           </nav>
+          
         
     </header>
 <!--fine header-->
 
 <!--inizio main-->
     <main>
-        <div class="container-fluid  py-4 ms_bg-color">
-            <div class="container-sm">
+       
+
+
+       <section id="jumbotron" class="ms_bg-color">
+        <div class="container-fluid  py-4 ">
+            <div class="container-sm text-white">
                 <div class="row justify-content-center">
                     <div class="col-6 col-sm-4 col-lg-3">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                       <img src="img/avatar.svg" alt="">
                     </div>
                 </div>
                 <div class="text-center mb-4">
@@ -55,19 +59,13 @@
                 <div class="row">
                     <div class="d-flex justify-content-center ">
                         <div class="col-3 col-lg-3">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                           <hr>
                         </div>
-                        <div class="col-2 col-lg-1">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                        <div class="col-2 col-lg-1 text-center">
+                            <i class="fas fa-star"></i>
                         </div>
                         <div class="col-3 col-lg-3">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                            <hr>
                         </div>
                     </div>
                 </div>
@@ -77,115 +75,94 @@
                    
             </div>
          </div>
-
          
+       </section>
+
+        <section id="portfolio">
             <div class="container-sm">
                 <h1 class=" text-center mt-4">PORTFOLIO</h1>
                 <div class="row">
                     <div class="d-flex justify-content-center  mb-4 mt-2">
                         <div class="col-3 col-lg-2">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                            <hr>
                         </div>
-                        <div class="col-2 col-lg-1">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                        <div class="col-2 col-lg-1 text-center">
+                            <i class="fas fa-star"></i>
                         </div>
                         <div class="col-3 col-lg-2">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                            <hr>
                         </div>
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4  ">
+                       <img class="img-fluid rounded" src="img/cabin.png" alt="">
+                       <div class=""><i class="fas fa-plus"></i></div>
                     </div>
     
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4  ">
+                        <img class="img-fluid rounded" src="img/cake.png" alt="">
                     </div>
     
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 ">
+                       <img class="img-fluid rounded" src="img/circus.png" alt="">
                     </div>
     
-                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 ">
+                       <img class="img-fluid rounded" src="img/game.png" alt="">
                     </div>
     
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 ">
+                       <img class="img-fluid rounded" src="img/safe.png" alt="">
                     </div>
     
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="ms_debug-box">
-                            
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 ">
+                        <img class="img-fluid rounded" src="img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
          
-
-         <div class="container-fluid  py-4 ms_bg-color">
-            <div class="container-sm ">
-                
-                <div class="text-center mb-4">
-                    <h1>About</h1>
-                </div>
-                <div class="row">
-                    <div class="d-flex justify-content-center ">
-                        <div class="col-3 col-lg-3">
-                            <div class="ms_debug-box">
-                            
+        </section>
+            
+        <section id="about" class=" mt-5 ms_bg-color py-4 ">
+           
+                <div class="container-sm  text-white">
+                    
+                    <div class="text-center mb-4">
+                        <h1>About</h1>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex justify-content-center ">
+                            <div class="col-3 col-lg-3">
+                                <div class="h-25">
+                                    <hr >
+                                </div>
+                              
                             </div>
-                        </div>
-                        <div class="col-2 col-lg-1">
-                            <div class="ms_debug-box">
-                            
+                            <div class="col-2 col-lg-1 text-center">
+                                <i class="fas fa-star"></i>
                             </div>
-                        </div>
-                        <div class="col-3 col-lg-3">
-                            <div class="ms_debug-box">
-                            
+                            <div class="col-3 col-lg-3">
+                               <hr>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    
+                    <div class="row justify-content-center">
                         <div class="col-12 col-sm-6 ">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vitae p porro quasi quo dignissimos consequuntur est animi blanditiis.</p>
                         </div>
                         <div class="col-12 col-sm-6 ">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vitae p porro quasi quo dignissimos consequuntur est animi blanditiis.</p>
                         </div>
-
-                    
-
+                        <button type="button" class="btn btn-outline-light w-auto "><i class="white fas fa-download"></i>Download</button>
+                    </div>
+                   
                 </div>
-               
-            </div>
-         </div>
-
-        
+             
+    
+        </section>
+         
+        <section id="contact">
             <div class="container-sm py-4" >
                 <div class="text-center ">
                     <h1 >CONTACT ME</h1>
@@ -193,55 +170,57 @@
                 <div class="row">
                     <div class="d-flex justify-content-center  mb-4">
                         <div class="col-3 col-lg-2">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                           <hr>
                         </div>
-                        <div class="col-2 col-lg-1">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                        <div class="col-2 col-lg-1 text-center">
+                            <i class="fas fa-star"></i>
                         </div>
                         <div class="col-3 col-lg-2">
-                            <div class="ms_debug-box">
-                            
-                            </div>
+                            <hr>
                         </div>
                     </div>
                 </div>
                 <form>
-                    <input class="form-control form-control-lg mb-4" type="text" placeholder="Nome" aria-label=".form-control-lg example">
-                    <input class="form-control form-control-lg mb-4" type="email" placeholder="Email Address" aria-label=".form-control-lg example">
-                    <input class="form-control form-control-lg mb-4" type="number" placeholder="Phone Number" aria-label=".form-control-lg example">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <input class="form-control form-control-lg mb-4 border-bottom border-0 rounded-0" type="text" placeholder="Nome" aria-label="">
+                    <input class="form-control form-control-lg mb-4 border-bottom border-0 rounded-0" type="email" placeholder="Email Address" aria-label="">
+                    <input class="form-control form-control-lg mb-4 border-bottom border-0 rounded-0" type="number" placeholder="Phone Number" aria-label="">
+                    <label for="exampleFormControlTextarea1 border-bottom border-0 rounded-0" class="form-label">Message</label>
+                    <textarea class="form-control border-bottom border-0 rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </form>
-                <button type="button" class="btn btn-send mt-4 mb-4">Send</button>
+                <button type="button" class="btn mb-5 ms_bg-color mt-2 text-white">Send</button>
     
             </div>
+        </section>
+           
          
     </main>
 <!--fine main-->
 
 <!--inizio footer-->
     <footer>
-        <div class="container-fluid   py-5">
-            <div class="container"> 
+        <div class="container-fluid   py-5  ms_bg-color_top">
+            <div class="container text-white"> 
                 <div class="row justify-content-center">
                     
                         <div class="col-12 col-sm-4 mb-4">
-                            <div class="ms_debug-box">
-                            
+                            <div class="text-center white">
+                                <h3>LOCATION</h3>
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-4 mb-5">
-                            <div class="ms_debug-box">
-                            
+                            <div class="text-center white ">
+                                <h3>AROUND THE WEB</h3>
+                                <i class="sito fab fa-facebook-f border rounded-circle p-3 m-2 "></i>
+                                <i class="sito fab fa-google-plus-g border rounded-circle p-3 m-2"></i>
+                                <i class="sito fab fa-twitter border rounded-circle p-3 m-2"></i>
+                                <i class="sito fab fa-linkedin border rounded-circle p-3 m-2"></i>
                             </div>
                         </div>
                         <div class="col-12 col-sm-4">
-                            <div class="ms_debug-box">
-                            
+                            <div class="text-center white">
+                                <h3>ABOUT FREELANCER</h3>
+                                <p>Freelance is a free to use, open source Bootstrap theme created by <span class="text-success-emphasis">Start Bootstrap</span>.</p>
                             </div>
                         </div>
                     
@@ -249,12 +228,10 @@
                 </div>
             </div>
          </div>
-         <div class="container-fluid bscuro py-4">
+         <div class="container-fluid bscuro py-4  ms_bg-color_bottom">
             <div class="container">
-                <div class="d-flex justify-content-center ">
-                    <div class="ms_debug-box">
-                            
-                    </div>
+                <div class="d-flex justify-content-center text-white">
+                    <span >Copyright &copy; Your Website 2019</span>
                 </div>
             </div>
          </div>

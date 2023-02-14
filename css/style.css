@@ -1,16 +1,30 @@
 
 
-
-
 header{
-    background-color: #2c503e;
-    color: white;
+    background-color: #02303b;
+    height: 70px;
 }
-.ms_debug-box{
-    height: 100px;
-    border: dashed 1px black;
+main{
+    padding-top: 70px;
 }
+
 .ms_bg-color{
-    background-color: rgb(67, 238, 164);
+    background-color: #23BC9C;
 }
+.ms_bg-color_top{
+    background-color: #02303b;
+
+}
+.ms_bg-color_bottom{
+    background-color: #132529;
+
+}
+.ms_bg_color_btn{
+    background-color: green;
+}
+#about .container-sm{
+    padding: 0px 80px;
+}
+
+
 
