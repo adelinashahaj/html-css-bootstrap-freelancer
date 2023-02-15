@@ -14,28 +14,30 @@
 
     <header class="fixed-top">
             <!-- navbar -->
-          <nav class="navbar navbar-expand-sm navbar-light h-100 ">
-             <div class="container-sm flex-row-reverse  flex-sm-row">
-                <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon text-white"></span>
-                  </button>
-               <a class="navbar-brand text-white" href="#">STARTBOOTSTRAP</a>
-                 <div class="justify-content-sm-end collapse navbar-collapse" id="navbarTogglerDemo01">
-                     <ul class="d-flex navbar-nav  mb-2 mb-lg-0">
-                         <li class="nav-item">
-                         <a class="nav-link active text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
-                         </li>
-                         <li class="nav-item">
-                         <a class="nav-link active text-white" href="#about">ABOUT</a>
-                         </li>
-                         <li class="nav-item">
-                         <a class="nav-link active text-white" href="#account" tabindex="-1" aria-disabled="true">ACCOUNT</a>
-                         </li>
-                     </ul>
-                 </div>
-             </div>
+         
+
+          <nav class="navbar navbar-expand-sm  h-100 navbar-dark" data-bs-theme="dark">
+            <div class="container-sm">
+              <a class="navbar-brand fw-bold" href="#">STARTBOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class=" justify-content-sm-end collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" d-flex navbar-nav  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white fw-bold" href="#account" tabindex="-1" aria-disabled="true">ACCOUNT</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
           </nav>
-          
         
     </header>
 <!--fine header-->
@@ -96,8 +98,14 @@
                 </div>
                 <div class="row ">
                     <div class="col-12 col-sm-6 col-lg-4 mb-4  ">
-                       <img class="img-fluid rounded" src="img/cabin.png" alt="">
-                       <div class=""><i class="fas fa-plus"></i></div>
+                        <div class="ms_item  ">
+                            <img class="img-fluid rounded-4" src="img/cabin.png" alt="">
+                            <div class="ms_layover rounded-4">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                       
+                       
                     </div>
     
                     <div class="col-12 col-sm-6 col-lg-4 mb-4  ">
@@ -187,7 +195,7 @@
                     <label for="exampleFormControlTextarea1 border-bottom border-0 rounded-0" class="form-label">Message</label>
                     <textarea class="form-control border-bottom border-0 rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </form>
-                <button type="button" class="btn mb-5 ms_bg-color mt-2 text-white">Send</button>
+                <button type="button" class="btn mb-5 ms_bg-color mt-2 ">Send</button>
     
             </div>
         </section>
